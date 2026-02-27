@@ -10,5 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print a message
+      - name: Print message
         run: echo "Pipeline running successfully 🚀"
+
+      - name: Show date
+        run: date
+
+      - name: Show OS info
+        run: uname -a
+
+      - name: List files
+        run: ls -la
